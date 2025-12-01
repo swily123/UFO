@@ -33,7 +33,7 @@ public class Engine : MonoBehaviour
         {
             var distance = hitInfo.distance;
             
-            _targetBody.AddForce(forward * (_maxForce * Mathf.Clamp01(1-distance/10f)), ForceMode.Force);
+            _targetBody.AddForce(-forward * (_maxForce * Mathf.Clamp01(1-distance/10f)), ForceMode.Force);
         }
     }
 }
