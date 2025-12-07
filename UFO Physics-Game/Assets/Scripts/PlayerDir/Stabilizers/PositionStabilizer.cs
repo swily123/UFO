@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Stabilizers
+namespace PlayerDir.Stabilizers
 {
     [RequireComponent(typeof(Rigidbody))]
     public class PositionStabilizer : MonoBehaviour

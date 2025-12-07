@@ -1,4 +1,4 @@
-﻿namespace Utils
+﻿namespace PlayerDir.Utils
 {
     public static class ExtensionMethods
     {
